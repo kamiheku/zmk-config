@@ -10,5 +10,21 @@ on:
       - build.yaml
 
 jobs:
+  generate_archive_name:
+    runs-on: ubuntu-latest
+    outputs:
+      archive_name: ${{ steps.generate_name.outputs.archive_name }}
+    steps:
+      - name: Generate Dynamic Archive Name
+        id: generate_name
+        run: |
+          timestamp="$(date -u "+%Y%m%d%H%M%S")"
+          short_sha="${GITHUB_SHA::7}"
+          archive_name="zen-${timestamp}-${short_sha}"
+          echo "archive_name=${archive_name}" >> "${GITHUB_OUTPUT}"
+          echo "Generated archive name for output: ${archive_name}"
   build:
+    needs: generate_archive_name
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      archive_name: ${{ needs.generate_archive_name.outputs.archive_name }}
