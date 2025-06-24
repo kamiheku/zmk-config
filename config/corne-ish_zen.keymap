@@ -1,0 +1,46 @@
+// vim: ft=cpp
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+
+#define QWERTY 0
+#define NUM 1
+#define SYM 2
+
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+      label = "QWERTY";
+      bindings = <
+        &kp TAB   &kp Q &kp W &kp E &kp R &kp T    &kp Y &kp U &kp I    &kp O   &kp P    &kp BSLH
+        &kp LCTRL &kp A &kp S &kp D &kp F &kp G    &kp H &kp J &kp K    &kp L   &kp SEMI &kp SQT
+        &kp LSHFT &kp Z &kp X &kp C &kp V &kp B    &kp N &kp M &kp CMMA &kp DOT &kp FSLH &kp ENTER
+                     &kp LGUI &lt NUM ESC &kp SPC  &kp BSPC &mo SYM &kp RALT
+      >;
+    };
+
+    num_layer {
+      label = "NUMBER";
+      bindings = <
+        &none &kp N1 &kp N2 &kp N3     &kp N4       &kp N5        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0 &none
+    &kp LCTRL &none  &none  &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none  &none
+    &kp LSHFT &none  &none  &kp K_PP   &kp C_BRI_DN &kp C_BRI_UP  &none     &none     &none     &none     &none  &none
+                            &none      &none        &none         &none     &none     &none
+      >;
+    };
+
+    sym_layer {
+      label = "SYMBOL";
+      bindings = < 
+        &none      &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT    &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR &reset
+        &kp LCTRL  &none        &none        &bt BT_CLR   &bt BT_SEL 1 &bt BT_SEL 2 &kp MINUS &kp EQUAL &kp LBRC &kp RBRC &kp PIPE &kp GRAVE
+        &kp LSHFT  &none        &none        &bt BT_SEL 3 &bt BT_SEL 4 &none        &kp UNDER &kp PLUS  &kp LBKT &kp RBKT &kp BSLH &kp TILDE
+                                                           &none &none &none        &none &none &none
+      >;
+    };
+
+  };
+};
