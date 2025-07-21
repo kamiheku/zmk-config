@@ -1,3 +1,3 @@
 # zmk-config
 
-![Corne-ish Zen Logo](zenlogo.png)
+![Corne-ish Zen](zen.png)
