@@ -13,4 +13,4 @@ parse_config:
     t: ''
     type: trans
   zmk_keycode_map:
-    PP: 'PLAY PAUSE'
+    C_PP: 'PLAY PAUSE'
