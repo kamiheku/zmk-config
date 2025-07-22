@@ -44,7 +44,7 @@ layers:
   - SYM
   - RALT
   NUM:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - '1'
   - '2'
   - '3'
@@ -55,10 +55,10 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - {type: trans}
   - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - MUTE
   - VOL DN
   - VOL UP
@@ -66,28 +66,28 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - PP
   - BRI DN
   - BRI UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   SYM:
-  - {t: ▽, type: trans}
+  - {type: trans}
   - '!'
   - '@'
   - '#'
@@ -98,10 +98,10 @@ layers:
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
+  - {type: trans}
   - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -112,8 +112,8 @@ layers:
   - '|'
   - '`'
   - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
@@ -123,9 +123,9 @@ layers:
   - ']'
   - \
   - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - {type: trans}
