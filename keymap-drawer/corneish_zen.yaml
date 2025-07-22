@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - {type: trans}
-  - LCTRL
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - MUTE
@@ -68,7 +68,7 @@ layers:
   - RIGHT
   - {type: trans}
   - {type: trans}
-  - LSHFT
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - PLAY PAUSE
@@ -99,7 +99,7 @@ layers:
   - LPAR
   - RPAR
   - {type: trans}
-  - LCTRL
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - BT CLR
@@ -111,7 +111,7 @@ layers:
   - RBRC
   - PIPE
   - GRAVE
-  - LSHFT
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {t: BT, h: '2'}
