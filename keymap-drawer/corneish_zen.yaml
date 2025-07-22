@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - BSLH
   - LCTRL
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - SEMI
+  - SQT
   - LSHFT
   - Z
   - X
@@ -34,8 +34,8 @@ layers:
   - N
   - M
   - CMMA
-  - .
-  - /
+  - DOT
+  - FSLH
   - ENTER
   - LGUI
   - {t: ESC, h: NUM}
@@ -88,16 +88,16 @@ layers:
   - {type: trans}
   SYM:
   - {type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - EXCL
+  - AT
+  - HASH
+  - DLLR
+  - PRCNT
+  - CARET
+  - AMPS
+  - STAR
+  - LPAR
+  - RPAR
   - {type: trans}
   - LCTRL
   - {type: trans}
@@ -105,24 +105,24 @@ layers:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
-  - '-'
-  - '='
-  - '{'
-  - '}'
-  - '|'
-  - '`'
+  - MINUS
+  - EQUAL
+  - LBRC
+  - RBRC
+  - PIPE
+  - GRAVE
   - LSHFT
   - {type: trans}
   - {type: trans}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - _
-  - +
-  - '['
-  - ']'
-  - \
-  - '~'
+  - UNDER
+  - PLUS
+  - LBKT
+  - RBKT
+  - BSLH
+  - TILDE
   - {type: trans}
   - {type: trans}
   - {type: trans}
