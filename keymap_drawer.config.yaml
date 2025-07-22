@@ -12,3 +12,5 @@ parse_config:
   trans_legend:
     t: ''
     type: trans
+  zmk_keycode_map:
+    PP: 'PLAY PAUSE'
