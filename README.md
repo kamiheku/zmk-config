@@ -6,4 +6,4 @@
   src="https://raw.githubusercontent.com/kamiheku/zmk-config/refs/heads/main/kbd.png"
 />
 
-![](./keymap-drawer/corneish_zen.svg?)
+![](./keymap-drawer/corneish_zen.svg?1)
