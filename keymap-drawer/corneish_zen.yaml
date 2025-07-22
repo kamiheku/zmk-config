@@ -71,7 +71,7 @@ layers:
   - LSHFT
   - {type: trans}
   - {type: trans}
-  - PP
+  - PLAY PAUSE
   - BRI DN
   - BRI UP
   - {type: trans}
