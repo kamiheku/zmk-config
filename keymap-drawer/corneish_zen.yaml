@@ -84,7 +84,7 @@ layers:
   - {type: held}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - SYSTEM
   - {type: trans}
   SYM:
   - {type: trans}
@@ -124,7 +124,50 @@ layers:
   - BSLH
   - TILDE
   - {type: trans}
+  - SYSTEM
   - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: trans}
+  SYSTEM:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: held}
